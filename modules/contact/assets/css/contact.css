@@ -1,0 +1,114 @@
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+p {
+  margin-bottom: 0px; }
+
+.contact {
+  margin-top: 30px; }
+  .contact .item-left {
+    padding-left: 0px;
+    padding-right: 0px; }
+    @media (min-width: 960px) {
+      .contact .item-left {
+        width: 630px;
+        margin-right: 30px; } }
+    .contact .item-left .item_contact {
+      padding-left: 0px;
+      padding-right: 0px; }
+      @media (min-width: 960px) {
+        .contact .item-left .item_contact {
+          width: 300px;
+          margin-right: 30px; } }
+      .contact .item-left .item_contact iframe {
+        height: 300px; }
+      .contact .item-left .item_contact .map-contact {
+        margin-bottom: 20px; }
+      .contact .item-left .item_contact .p-info {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: left;
+        color: #000;
+        margin-bottom: 6px; }
+    .contact .item-left .mg2 {
+      margin-right: 0px; }
+  .contact .item_right {
+    padding-left: 0px;
+    padding-right: 0px; }
+    @media (min-width: 960px) {
+      .contact .item_right {
+        width: 300px;
+        padding-right: 0px; } }
+    .contact .item_right h1 {
+      margin-top: 0px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 20px;
+      color: #000; }
+    .contact .item_right .p-form {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #000;
+      margin-bottom: 20px; }
+    .contact .item_right form .bao_input {
+      margin-bottom: 10px; }
+      .contact .item_right form .bao_input input {
+        width: 100%;
+        height: 40px;
+        background: #fff;
+        border: 1px solid #ccc;
+        padding-left: 12px; }
+      .contact .item_right form .bao_input textarea {
+        width: 100%;
+        height: 158px;
+        background: #fff;
+        border: 1px solid #ccc;
+        padding-top: 12px;
+        padding-left: 12px; }
+        .contact .item_right form .bao_input textarea:focus {
+          outline: unset; }
+      .contact .item_right form .bao_input ::-webkit-input-placeholder {
+        /* Edge */
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: left;
+        color: #ababab; }
+      .contact .item_right form .bao_input :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: left;
+        color: #ababab; }
+      .contact .item_right form .bao_input ::placeholder {
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: left;
+        color: #ababab; }
+    .contact .item_right form .div-btn .button {
+      font-size: 13px;
+      line-height: 16px;
+      text-align: left;
+      font-weight: bold;
+      padding-left: 11px;
+      padding-top: 12px;
+      color: #000;
+      width: 100%;
+      height: 40px;
+      background: #e7e8e9 url("../images/more.svg") no-repeat top 16px right 15px;
+      display: block; }
+      .contact .item_right form .div-btn .button:hover {
+        background: linear-gradient(87.2deg, #47C1BF 30.92%, #008CBF 105.54%);
+        color: #ffffff; }
+
+@media (min-width: 767px) {
+  .contact .item-left .item_contact {
+    margin-bottom: 30px; } }
+
+/*# sourceMappingURL=contact.css.map */

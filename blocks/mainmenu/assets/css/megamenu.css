@@ -1,0 +1,258 @@
+.logo-lang {
+  margin-top: 10px;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.logo-lang .logo img {
+  width: 175px;
+  height: 78px;
+}
+
+.logo-lang .logo .dobong {
+  box-shadow: 0px 7px 7px #000000ad;
+}
+
+.logo-lang .lang-search {
+  padding: 4px 15px;
+  border-radius: 12px;
+  background: #fff;
+  opacity: 0.8;
+  display: flex;
+  position: absolute;
+  top: 15px;
+  right: 0px;
+}
+
+.logo-lang .lang-search .lang {
+  margin-right: 10px;
+}
+
+.logo-lang .lang-search .lang .a-lang {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ababab;
+}
+
+.logo-lang .lang-search .lang .a-lang:hover {
+  color: #000;
+}
+
+.logo-lang .lang-search .lang .active_lang {
+  color: #000;
+}
+
+.logo-lang .lang-search .search .btn_search {
+  height: auto;
+  background: unset;
+  border: unset;
+}
+
+.logo-lang .lang-search .search .btn_search:focus {
+  outline: unset;
+}
+
+.logo-lang .lang-search .search .btn_search:after {
+  border: unset;
+}
+
+.logo-lang .lang-search .search .dropdown-menu_search {
+  left: -215px;
+  box-shadow: unset;
+  border: unset;
+  margin: 10px 0 0;
+  padding: 0px;
+  min-width: 230px;
+}
+
+.logo-lang .lang-search .search .dropdown-menu_search .form-inline .job-typeahead {
+  padding-left: 10px;
+  height: 30px;
+  width: 100%;
+  border: 1px solid #ababab;
+  border-radius: 5px;
+}
+
+.logo-lang .lang-search .search .dropdown-menu_search .form-inline .job-typeahead:focus {
+  outline: unset;
+}
+
+.logo-lang .dobong {
+  box-shadow: 0px 7px 7px #000000ad;
+}
+
+#cssmenu {
+  padding: 0px 0;
+}
+
+@media (max-width: 768px) {
+  #cssmenu {
+    display: none;
+  }
+}
+
+#cssmenu .dropdown-menu {
+  border: none;
+  width: 100px;
+}
+
+#cssmenu>ul {
+  position: unset;
+}
+
+#cssmenu>ul .dropdown-content {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  min-width: 250px;
+  background: #111111;
+}
+
+#cssmenu>ul .dropdown-content li {
+  width: 100%;
+}
+
+#cssmenu>ul .dropdown-content a {
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  text-transform: none !important;
+  font-weight: normal;
+  color: #ffffff;
+  padding: 0 20px !important;
+}
+
+#cssmenu>ul .dropdown-content a:hover {
+  color: #cbaf70 !important;
+  border-bottom: 0px !important;
+}
+
+#cssmenu>ul>li {
+  float: left;
+  position: relative;
+  padding: 0;
+}
+
+#cssmenu>ul>li.item_empty {
+  width: 265px;
+  min-height: 1px;
+}
+
+#cssmenu>ul>li>a {
+  transition: all 0.4s ease-in-out;
+  F position: relative;
+  display: block;
+}
+
+#cssmenu>ul>li .logo {
+  border-bottom: none;
+}
+
+#cssmenu>ul>li .logo:hover,
+#cssmenu>ul>li .logo:focus {
+  background: none;
+  border-bottom: none;
+}
+
+#cssmenu>ul>li:hover .dropdown-menu {
+  -o-animation: spMenuFadeInUp 400ms;
+  -ms-animation: spMenuFadeInUp 400ms;
+  -moz-animation: spMenuFadeInUp 400ms;
+  -webkit-animation: spMenuFadeInUp 400ms;
+  animation: spMenuFadeInUp 400ms;
+  display: block;
+  top: 100%;
+  padding: 0;
+  margin-top: 0px;
+  left: 0px;
+}
+
+#cssmenu>ul>li:hover .dropdown-menu_search {
+  top: 132%;
+  left: -120px;
+}
+
+#cssmenu>ul>li .dropdown-menu_search {
+  top: 132%;
+  left: -120px;
+}
+
+.menu-mobile {
+  float: left;
+  width: 100%;
+}
+
+.menu-mobile a {
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.menu-mobile>li {
+  border-bottom: 1px solid #e8e8e8;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.menu-mobile>li div {
+  -webkit-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+  padding: 10px 20px 10px 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.menu-mobile>li div .offcanvas-menu-toggler {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 13px 20px;
+  cursor: pointer;
+}
+
+.menu-mobile>li div .fa {
+  display: none;
+}
+
+.menu-mobile>li .sub-1 {
+  padding-left: 20px;
+}
+
+.menu-mobile>li .sub-2 {
+  padding-left: 30px;
+}
+
+.menu-mobile>li ul {
+  display: none;
+}
+
+.menu-mobile li.parent .fa-angle-down {
+  display: block;
+}
+
+.menu-mobile li.open {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.menu-mobile li.open .fa-angle-down {
+  display: none;
+}
+
+.menu-mobile li.open .fa-angle-up {
+  display: block;
+}
+
+.menu-mobile>li {
+  border: 0;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=megamenu.css.map */

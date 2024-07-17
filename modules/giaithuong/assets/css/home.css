@@ -1,0 +1,84 @@
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+p {
+  margin-bottom: 0px; }
+
+.nd_giaithuong {
+  margin-top: 30px; }
+  .nd_giaithuong .item_gt .left {
+    padding-left: 0px; }
+    @media (min-width: 960px) {
+      .nd_giaithuong .item_gt .left {
+        width: 460px;
+        padding-right: 0px;
+        margin-right: 40px; } }
+  .nd_giaithuong .item_gt .right {
+    padding-right: 0px; }
+    @media (min-width: 960px) {
+      .nd_giaithuong .item_gt .right {
+        width: 460px;
+        padding-left: 0px; } }
+  .nd_giaithuong .item_gt .item_g {
+    margin-bottom: 40px; }
+    .nd_giaithuong .item_gt .item_g .img_gt {
+      position: relative; }
+      .nd_giaithuong .item_gt .item_g .img_gt img {
+        max-width: 100%; }
+      .nd_giaithuong .item_gt .item_g .img_gt .p-title {
+        top: 38%;
+        right: -1px;
+        position: absolute;
+        width: 140px;
+        height: 64px;
+        display: grid;
+        align-items: center;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 16px;
+        padding-right: 20px;
+        text-align: right;
+        color: #333;
+        background: #ffffff;
+        clip-path: polygon(100% 0%, 100% 100%, 0 100%, 20% 0%); }
+      .nd_giaithuong .item_gt .item_g .img_gt .p-title-right {
+        right: unset;
+        text-align: left;
+        padding-right: 0px;
+        padding-left: 20px;
+        left: 0px;
+        clip-path: polygon(80% 0, 100% 100%, 0 100%, 0 0); }
+    .nd_giaithuong .item_gt .item_g .content_gt ul li {
+      display: flex; }
+      .nd_giaithuong .item_gt .item_g .content_gt ul li span {
+        display: block;
+        width: 35px; }
+      @media (min-width: 960px) {
+        .nd_giaithuong .item_gt .item_g .content_gt ul li p {
+          width: 426px; } }
+
+@media (max-width: 767px) {
+  .nd_giaithuong .mg2 {
+    display: flex;
+    flex-direction: column-reverse; }
+  .nd_giaithuong .item_gt {
+    margin-bottom: 40px; }
+    .nd_giaithuong .item_gt .item_g {
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-bottom: 10px; }
+      .nd_giaithuong .item_gt .item_g .content_gt ul li p {
+        margin-left: 10px; }
+      .nd_giaithuong .item_gt .item_g .img_gt .p-title {
+        left: 0px;
+        clip-path: polygon(80% 0, 100% 100%, 0 100%, 0 0); }
+      .nd_giaithuong .item_gt .item_g .img_gt .title-mobile {
+        position: unset !important;
+        padding-left: 0px;
+        text-align: left;
+        width: 100%; }
+  .nd_giaithuong .mg2 {
+    margin-bottom: 40px; } }
+
+/*# sourceMappingURL=home.css.map */
