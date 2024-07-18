@@ -9,9 +9,9 @@
   height: 78px;
 }
 
-.logo-lang .logo .dobong {
+/* .logo-lang .logo .dobong {
   box-shadow: 0px 7px 7px #000000ad;
-}
+} */
 
 .logo-lang .lang-search {
   padding: 4px 15px;
@@ -78,9 +78,9 @@
   outline: unset;
 }
 
-.logo-lang .dobong {
+/* .logo-lang .dobong {
   box-shadow: 0px 7px 7px #000000ad;
-}
+} */
 
 #cssmenu {
   padding: 0px 0;
